@@ -56,7 +56,24 @@ ul {
 }
 
 .quote {
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
     background-color: #E5E7EB;
+    align-items: end;
+}
+
+.quote-text {
+    color: #1F2937;
+    font-size: 36px;
+    font-style: italic;
+    padding: 0px 50px;
+}
+
+.quote-credit {
+    color: #1F2937;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 .signup {
@@ -87,4 +104,12 @@ ul {
     padding: 10px 35px;
     border-radius: 10px;
     font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    color: #F9FAF8;
+    font-size: 20px;
 }
