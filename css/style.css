@@ -15,10 +15,6 @@ body {
     background-color: #1F2937;
 }
 
-li {
-    list-style: none;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
@@ -38,10 +34,25 @@ li {
     font-size: 48px;
 }
 
+li {
+    list-style: none;
+}
+
 ul {
     display: flex;
     gap: 20px;
     font-size: 20px;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.info {
+    display: flex;
+    padding: 50PX;
 }
 
 .quote {
