@@ -2,3 +2,41 @@
     box-sizing: border-box;
     margin: 0;
 }
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header,
+.hero,
+.footer {
+    background-color: #1F2937;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #F9FAF8;
+}
+
+.header a,
+.header a::before,
+.header a::after {
+    color: #F9FAF8;
+    text-decoration: none;
+}
+
+.header p {
+    font-size: 48px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+}
