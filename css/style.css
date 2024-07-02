@@ -60,6 +60,7 @@ ul {
     justify-content: center;
     padding: 50px;
     gap: 40px;
+    flex-wrap: wrap;
 }
 
 .hero-text {
@@ -69,6 +70,7 @@ ul {
     flex: 1;
     gap: 10px;
     max-width: 600px;
+    min-width: 250px;
 }
 
 .hero-text h2 {
@@ -96,6 +98,7 @@ ul {
     align-items: center;
     background-color: lightgray;
     max-width: 600px;
+    height: 300px;
 }
 
 .info {
