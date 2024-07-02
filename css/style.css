@@ -32,7 +32,8 @@ body {
 
 .header a,
 .header a::before,
-.header a::after {
+.header a::after,
+.footer a {
     color: #F9FAF8;
     text-decoration: none;
 }
@@ -56,7 +57,7 @@ ul {
 
 .hero {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 50px;
     gap: 40px;
 }
@@ -67,6 +68,7 @@ ul {
     color: #F9FAF8;
     flex: 1;
     gap: 10px;
+    max-width: 600px;
 }
 
 .hero-text h2 {
@@ -93,6 +95,7 @@ ul {
     justify-content: center;
     align-items: center;
     background-color: lightgray;
+    max-width: 600px;
 }
 
 .info {
@@ -129,7 +132,7 @@ ul {
     flex-direction: column;
     padding: 100px;
     background-color: #E5E7EB;
-    align-items: end;
+    align-items: center;
 }
 
 .quote-text {
@@ -137,18 +140,21 @@ ul {
     font-size: 36px;
     font-style: italic;
     padding: 0px 50px;
+    max-width: 1200px;
 }
 
 .quote-credit {
     color: #1F2937;
     font-size: 20px;
     font-weight: bold;
+    max-width: 1200px;
 }
 
 .signup {
     display: flex;
     padding: 50px;
     color: #F9FAF8;
+    justify-content: center;
 }
 
 .signup-card {
@@ -160,6 +166,7 @@ ul {
     align-items: center;
     flex: auto;
     font-size: 20px;
+    max-width: 1200px;
 }
 
 .signup h3 {
