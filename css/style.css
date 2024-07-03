@@ -122,6 +122,7 @@ ul {
     justify-content: center;
     gap: 40px;
     flex-wrap: wrap;
+    max-width: 1420px;
 }
 
 .card {
