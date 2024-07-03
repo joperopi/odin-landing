@@ -94,11 +94,12 @@ ul {
 
 .hero-image {
     flex: 1;
-    justify-content: center;
-    align-items: center;
-    background-color: lightgray;
     max-width: 600px;
     height: 300px;
+}
+
+.hero-image img {
+    border-radius: 10px;
 }
 
 .info {
